@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rental Car Organization</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+  <header id="header">
+
+    <div id="top-bar">
+      <button id="quote-button">Need some help? Get Free Quote</button>
+    </div>
+
+
+    <nav id="navbar">
+      <div id="logo">Rental Car Organization</div>
+      <button id="hamburger" onclick="toggleMenu()">☰</button>
+      <ul id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="service.html">Services</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Pages</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+  </header>
+   <section id="hero">
+        <img src="images/cover.jpg" alt="Background Image">
+        <div id="overlay"></div>
+        <div id="hero-content">
+            <h1>Rental Car Organization</h1>
+            <p>The right Car may exist, but Luxyury</p>
+            <button>Learn More</button>
+        </div>
+    </section>
+  <h2 style="text-align: center; padding: 10px;">Our Best Cars</h2>
+<section id="image-grid">
+        <!-- Economy Cars -->
+        <div class="grid-item">
+            <div class="image-wrapper">
+                <img src="images/service1.jpg" alt="Economy Car">
+                <div class="overlay">
+                    <p>Economy Cars</p>
+                </div>
+            </div>
+        </div>
+        <!-- Family Cars -->
+        <div class="grid-item">
+            <div class="image-wrapper">
+                <img src="images/service2.jpg" alt="Family Car">
+                <div class="overlay">
+                    <p>Family Cars</p>
+                </div>
+            </div>
+        </div>
+        <!-- Luxury Cars -->
+        <div class="grid-item">
+            <div class="image-wrapper">
+                <img src="images/service3.jpg" alt="Luxury Car">
+                <div class="overlay">
+                    <p>Luxury Cars</p>
+                </div>
+            </div>
+        </div>
+        <!-- SUVs -->
+        <div class="grid-item">
+            <div class="image-wrapper">
+                <img src="images/service4.jpg" alt="SUV">
+                <div class="overlay">
+                    <p>SUVs</p>
+                </div>
+            </div>
+        </div>
+        <!-- Business Rentals -->
+        <div class="grid-item">
+            <div class="image-wrapper">
+                <img src="images/service5.jpg" alt="Business Rentals">
+                <div class="overlay">
+                    <p>Business Rentals</p>
+                </div>
+            </div>
+        </div>
+        <!-- Long-Term Rentals -->
+        <div class="grid-item">
+            <div class="image-wrapper">
+                <img src="images/service6.jpeg" alt="Long-Term Rental">
+                <div class="overlay">
+                    <p>Long-Term Rentals</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <div id="contact-container">
+            <div id="contact-form">
+                <h2>Book Your Favourite Car Now</h2>
+                <form id="contactForm">
+                    
+                    <div id="form-fields">
+                        <input type="text" id="name" placeholder="Enter your name" required>
+                        <input type="email" id="email" placeholder="Email" required>
+                    </div>
+                    <input type="text" id="subject" placeholder="Your price range" required>
+                    <textarea id="message" placeholder="Enter Detail of car you want" rows="5" required></textarea>
+                    <button type="submit" id="send-button">Get a Quote</button>
+                </form>
+            </div>
+            <div id="contact-info">
+                <p><strong>Buttonwood, California</strong><br>Rosemead, CA 91770</p>
+                <p><strong>+1 253 565 2365</strong><br>Mon to Fri 9am to 6pm</p>
+                <p><strong>support@rentalcar.com</strong><br>Send us your query anytime!</p>
+            </div>
+        </div>
+    </section>
+    <footer id="footer-section">
+        <div id="footer-container">
+            <div id="footer-company">
+                <h3>Company</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Fleet</a></li>
+                    <li><a href="#">Customer Stories</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Careers</a></li>
+                </ul>
+            </div>
+            <div id="footer-services">
+                <h3>Services</h3>
+                <ul>
+                    <li><a href="#">Long-Term Rentals</a></li>
+                    <li><a href="#">Airport Transfers</a></li>
+                    <li><a href="#">Luxury Cars</a></li>
+                    <li><a href="#">Corporate Rentals</a></li>
+                </ul>
+            </div>
+            <div id="footer-contact">
+                <h3>Contact Us</h3>
+                <p>Address: 123 Main Street, Cityname, Country</p>
+                <p>Phone: +1 800 123 456</p>
+                <p>Email: <a href="mailto:info@rentalcars.com">info@rentalcars.com</a></p>
+            </div>
+            <div id="footer-newsletter">
+                <h3>Newsletter</h3>
+                <p>Subscribe to receive updates and exclusive deals.</p>
+                <form id="newsletter-form">
+                    <input type="email" id="newsletter-email" placeholder="Email Address" required>
+                    <button type="submit" id="subscribe-button">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>
